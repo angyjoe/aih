@@ -23,23 +23,27 @@ Refer to the [User's Guide](./documentation/users-guide-1.0.pdf) and the [presen
 
 ## Screenshots
 
-### Anti Inference Hub after Thwarting an Inference Attempt
+#### Anti Inference Hub after Thwarting an Inference Attempt
 ![Anti Inference Hub after Thwarting an Inference Attempt](./screenshots/Anti%20Inference%20Hub%20after%20Thwarting%20an%20Inference Attempt.jpg)
 
-### The Adjust Super Clients Box
+#### The Adjust Super Clients Box
 ![The Adjust Super Clients Box](./screenshots/The%20Adjust%20Super%20Clients%20Box.jpg)
 
-### The Hub Client Window
+#### The Hub Client Window
 ![The Hub Client Window](./screenshots/The%20Hub%20Client%20Window.jpg)
 
-### The Hub Window
+#### The Hub Window
 ![The Hub Window](./screenshots/The%20Hub%20Window.jpg)
 
-### The Initialize Keys Box
+#### The Initialize Keys Box
 ![The Initialize Keys Box](./screenshots/The%20Initialize%20Keys%20Box.jpg)
 
-### The Setup Inference Channels Box
+#### The Setup Inference Channels Box
 ![The Setup Inference Channels Box](./screenshots/The%20Setup%20Inference%20Channels%20Box.jpg)
+
+## Q&A
+
+Post your questions to [Anti Inference Hub mailing list](https://lists.sourceforge.net/lists/listinfo/aih-list).
 
 ## Licence
 
