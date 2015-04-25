@@ -1,0 +1,1 @@
+start javaw -jar dist/AntiInferenceHub.jar -HubClient
