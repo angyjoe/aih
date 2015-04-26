@@ -15,11 +15,17 @@ Anti Inference Hub uses the following software components:
 
 4. Oracle JDBC Driver
 
-5. jsyntaxpane 0.9.4
+5. JSyntaxPane 0.9.4
+
+6. Xerces2 Java Parser 2.9.1
+
+7. Org.jdesktop Swing Application Framework 1.0.3
+
+8. Org.jdesktop Swing Worker 1.1
 
 ## Documentation
 
-Refer to the [User's Guide](./documentation/users-guide-1.0.pdf) and the [presentation slides](./documentation/Anti Inference Hub Presentation.pdf).
+Refer to the [User's Guide](./documentation/users-guide-1.0-revision-1.pdf) and the [presentation slides](./documentation/Anti Inference Hub Presentation.pdf).
 
 ## Screenshots
 
