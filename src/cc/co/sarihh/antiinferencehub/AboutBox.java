@@ -32,16 +32,6 @@ public class AboutBox extends javax.swing.JDialog {
         licensePanel = new javax.swing.JPanel();
         licenseScrollPane = new javax.swing.JScrollPane();
         licenseTextArea = new javax.swing.JTextArea();
-        iconPanel = new javax.swing.JPanel();
-        iconLabel1 = new javax.swing.JLabel();
-        javax.swing.JLabel iconLabel2 = new javax.swing.JLabel();
-        iconLabel3 = new javax.swing.JLabel();
-        thirdPanel = new javax.swing.JPanel();
-        thirdScrollPane = new javax.swing.JScrollPane();
-        thirdTextArea = new javax.swing.JTextArea();
-        acknowledegmentPanel = new javax.swing.JPanel();
-        acknowledegmentScrollPane = new javax.swing.JScrollPane();
-        acknowledegmentTextArea = new javax.swing.JTextArea();
         southPanel = new javax.swing.JPanel();
         okButton = new javax.swing.JButton();
 
@@ -79,7 +69,7 @@ public class AboutBox extends javax.swing.JDialog {
 
         infoTextArea.setColumns(20);
         infoTextArea.setEditable(false);
-        infoTextArea.setFont(new java.awt.Font("Arial", 0, 11));
+        infoTextArea.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         infoTextArea.setLineWrap(true);
         infoTextArea.setRows(5);
         infoTextArea.setText(resourceMap.getString("infoTextArea.text")); // NOI18N
@@ -105,7 +95,7 @@ public class AboutBox extends javax.swing.JDialog {
 
         licenseTextArea.setColumns(20);
         licenseTextArea.setEditable(false);
-        licenseTextArea.setFont(new java.awt.Font("Arial", 0, 11));
+        licenseTextArea.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
         licenseTextArea.setLineWrap(true);
         licenseTextArea.setRows(5);
         licenseTextArea.setText(resourceMap.getString("licenseTextArea.text")); // NOI18N
@@ -118,97 +108,6 @@ public class AboutBox extends javax.swing.JDialog {
         licensePanel.add(licenseScrollPane, java.awt.BorderLayout.CENTER);
 
         centerPanel.addTab(resourceMap.getString("licensePanel.TabConstraints.tabTitle"), licensePanel); // NOI18N
-
-        iconPanel.setBackground(new java.awt.Color(255, 255, 255));
-        iconPanel.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        iconPanel.setName("iconPanel"); // NOI18N
-
-        iconLabel1.setFont(new java.awt.Font("Arial", 0, 14));
-        iconLabel1.setText(resourceMap.getString("iconLabel1.text")); // NOI18N
-        iconLabel1.setName("iconLabel1"); // NOI18N
-
-        iconLabel2.setBackground(new java.awt.Color(255, 255, 255));
-        iconLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cc/co/sarihh/antiinferencehub/resources/java.jpg"))); // NOI18N
-        iconLabel2.setVerticalAlignment(javax.swing.SwingConstants.TOP);
-        iconLabel2.setName("iconLabel2"); // NOI18N
-
-        iconLabel3.setFont(new java.awt.Font("Arial", 0, 14));
-        iconLabel3.setText(resourceMap.getString("iconLabel3.text")); // NOI18N
-        iconLabel3.setName("iconLabel3"); // NOI18N
-
-        javax.swing.GroupLayout iconPanelLayout = new javax.swing.GroupLayout(iconPanel);
-        iconPanel.setLayout(iconPanelLayout);
-        iconPanelLayout.setHorizontalGroup(
-            iconPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(iconPanelLayout.createSequentialGroup()
-                .addGroup(iconPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                    .addGroup(iconPanelLayout.createSequentialGroup()
-                        .addGap(43, 43, 43)
-                        .addComponent(iconLabel1))
-                    .addGroup(iconPanelLayout.createSequentialGroup()
-                        .addGap(144, 144, 144)
-                        .addGroup(iconPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
-                            .addComponent(iconLabel2, javax.swing.GroupLayout.PREFERRED_SIZE, 52, javax.swing.GroupLayout.PREFERRED_SIZE)
-                            .addComponent(iconLabel3))))
-                .addContainerGap(46, Short.MAX_VALUE))
-        );
-        iconPanelLayout.setVerticalGroup(
-            iconPanelLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGroup(iconPanelLayout.createSequentialGroup()
-                .addGap(46, 46, 46)
-                .addComponent(iconLabel1)
-                .addGap(32, 32, 32)
-                .addComponent(iconLabel2)
-                .addGap(42, 42, 42)
-                .addComponent(iconLabel3)
-                .addContainerGap(97, Short.MAX_VALUE))
-        );
-
-        centerPanel.addTab(resourceMap.getString("iconPanel.TabConstraints.tabTitle"), iconPanel); // NOI18N
-
-        thirdPanel.setName("thirdPanel"); // NOI18N
-        thirdPanel.setLayout(new java.awt.BorderLayout());
-
-        thirdScrollPane.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        thirdScrollPane.setName("thirdScrollPane"); // NOI18N
-
-        thirdTextArea.setColumns(20);
-        thirdTextArea.setEditable(false);
-        thirdTextArea.setFont(new java.awt.Font("Arial", 0, 11));
-        thirdTextArea.setLineWrap(true);
-        thirdTextArea.setRows(5);
-        thirdTextArea.setText(resourceMap.getString("thirdTextArea.text")); // NOI18N
-        thirdTextArea.setWrapStyleWord(true);
-        thirdTextArea.setName("thirdTextArea"); // NOI18N
-        thirdTextArea.setSelectionColor(new java.awt.Color(212, 208, 200));
-        licenseTextArea.setCaretPosition(0);
-        thirdScrollPane.setViewportView(thirdTextArea);
-
-        thirdPanel.add(thirdScrollPane, java.awt.BorderLayout.CENTER);
-
-        centerPanel.addTab(resourceMap.getString("thirdPanel.TabConstraints.tabTitle"), thirdPanel); // NOI18N
-
-        acknowledegmentPanel.setName("acknowledegmentPanel"); // NOI18N
-        acknowledegmentPanel.setLayout(new java.awt.BorderLayout());
-
-        acknowledegmentScrollPane.setBorder(javax.swing.BorderFactory.createLineBorder(new java.awt.Color(0, 0, 0)));
-        acknowledegmentScrollPane.setName("acknowledegmentScrollPane"); // NOI18N
-
-        acknowledegmentTextArea.setColumns(20);
-        acknowledegmentTextArea.setEditable(false);
-        acknowledegmentTextArea.setFont(new java.awt.Font("Arial", 0, 11)); // NOI18N
-        acknowledegmentTextArea.setLineWrap(true);
-        acknowledegmentTextArea.setRows(5);
-        acknowledegmentTextArea.setText(resourceMap.getString("acknowledegmentTextArea.text")); // NOI18N
-        acknowledegmentTextArea.setWrapStyleWord(true);
-        acknowledegmentTextArea.setName("acknowledegmentTextArea"); // NOI18N
-        acknowledegmentTextArea.setSelectionColor(new java.awt.Color(212, 208, 200));
-        licenseTextArea.setCaretPosition(0);
-        acknowledegmentScrollPane.setViewportView(acknowledegmentTextArea);
-
-        acknowledegmentPanel.add(acknowledegmentScrollPane, java.awt.BorderLayout.CENTER);
-
-        centerPanel.addTab(resourceMap.getString("acknowledegmentPanel.TabConstraints.tabTitle"), acknowledegmentPanel); // NOI18N
 
         centerPanel.setSelectedComponent(aboutPanel);
 
@@ -229,18 +128,12 @@ public class AboutBox extends javax.swing.JDialog {
 
         getContentPane().add(mainPanel, java.awt.BorderLayout.CENTER);
 
-        java.awt.Dimension screenSize = java.awt.Toolkit.getDefaultToolkit().getScreenSize();
-        setBounds((screenSize.width-359)/2, (screenSize.height-424)/2, 359, 424);
+        setSize(new java.awt.Dimension(359, 424));
+        setLocationRelativeTo(null);
     }// </editor-fold>//GEN-END:initComponents
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JPanel aboutPanel;
-    private javax.swing.JPanel acknowledegmentPanel;
-    private javax.swing.JScrollPane acknowledegmentScrollPane;
-    private javax.swing.JTextArea acknowledegmentTextArea;
     private javax.swing.JTabbedPane centerPanel;
-    private javax.swing.JLabel iconLabel1;
-    private javax.swing.JLabel iconLabel3;
-    private javax.swing.JPanel iconPanel;
     private javax.swing.JPanel infoPanel;
     private javax.swing.JScrollPane infoScrollPane;
     private javax.swing.JTextArea infoTextArea;
@@ -250,8 +143,5 @@ public class AboutBox extends javax.swing.JDialog {
     private javax.swing.JPanel mainPanel;
     private javax.swing.JButton okButton;
     private javax.swing.JPanel southPanel;
-    private javax.swing.JPanel thirdPanel;
-    private javax.swing.JScrollPane thirdScrollPane;
-    private javax.swing.JTextArea thirdTextArea;
     // End of variables declaration//GEN-END:variables
 }
