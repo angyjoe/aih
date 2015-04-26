@@ -1,4 +1,4 @@
-package cc.co.sarihh.antiinferencehub;
+package info.sarihh.antiinferencehub;
 
 import java.sql.DatabaseMetaData;
 import java.sql.PreparedStatement;
@@ -241,7 +241,7 @@ public class SetupInferenceChannelsBox extends javax.swing.JDialog {
         removeAllButton = new javax.swing.JButton();
 
         addDialog.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(cc.co.sarihh.antiinferencehub.App.class).getContext().getResourceMap(SetupInferenceChannelsBox.class);
+        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(info.sarihh.antiinferencehub.App.class).getContext().getResourceMap(SetupInferenceChannelsBox.class);
         addDialog.setTitle(resourceMap.getString("addDialog.title")); // NOI18N
         addDialog.setModal(true);
         addDialog.setName("addDialog"); // NOI18N
@@ -333,7 +333,7 @@ public class SetupInferenceChannelsBox extends javax.swing.JDialog {
         southPanel1.setBackground(new java.awt.Color(255, 255, 255));
         southPanel1.setName("southPanel1"); // NOI18N
 
-        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(cc.co.sarihh.antiinferencehub.App.class).getContext().getActionMap(SetupInferenceChannelsBox.class, this);
+        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(info.sarihh.antiinferencehub.App.class).getContext().getActionMap(SetupInferenceChannelsBox.class, this);
         includeButton.setAction(actionMap.get("include")); // NOI18N
         includeButton.setBackground(new java.awt.Color(255, 255, 255));
         includeButton.setBorder(javax.swing.BorderFactory.createCompoundBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true), javax.swing.BorderFactory.createEmptyBorder(2, 10, 2, 10)));

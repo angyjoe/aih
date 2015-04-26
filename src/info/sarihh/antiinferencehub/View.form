@@ -95,7 +95,7 @@
             <MenuItem class="javax.swing.JMenuItem" name="setupDatabaseConnectionMenuItem">
               <Properties>
                 <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
-                  <action class="cc.co.sarihh.antiinferencehub.View" id="showSetupDatabaseConnectionBox" methodName="showSetupDatabaseConnectionBox"/>
+                  <action class="info.sarihh.antiinferencehub.View" id="showSetupDatabaseConnectionBox" methodName="showSetupDatabaseConnectionBox"/>
                 </Property>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -107,7 +107,7 @@
             <MenuItem class="javax.swing.JMenuItem" name="setupInferenceChannelMenuItem">
               <Properties>
                 <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
-                  <action class="cc.co.sarihh.antiinferencehub.View" id="showSetupInferenceChannelBox" methodName="showSetupInferenceChannelBox"/>
+                  <action class="info.sarihh.antiinferencehub.View" id="showSetupInferenceChannelBox" methodName="showSetupInferenceChannelBox"/>
                 </Property>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -123,7 +123,7 @@
             <MenuItem class="javax.swing.JMenuItem" name="initializeKeysMenuItem">
               <Properties>
                 <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
-                  <action class="cc.co.sarihh.antiinferencehub.View" id="showInitializeKeysBox" methodName="showInitializeKeysBox"/>
+                  <action class="info.sarihh.antiinferencehub.View" id="showInitializeKeysBox" methodName="showInitializeKeysBox"/>
                 </Property>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -139,7 +139,7 @@
             <MenuItem class="javax.swing.JMenuItem" name="adjustSuperClientsMenuItem">
               <Properties>
                 <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
-                  <action class="cc.co.sarihh.antiinferencehub.View" id="showAdjustSuperClients" methodName="showAdjustSuperClients"/>
+                  <action class="info.sarihh.antiinferencehub.View" id="showAdjustSuperClients" methodName="showAdjustSuperClients"/>
                 </Property>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -191,7 +191,7 @@
             <MenuItem class="javax.swing.JMenuItem" name="usersGuideMenuItem">
               <Properties>
                 <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
-                  <action class="cc.co.sarihh.antiinferencehub.View" id="showUsersGuide" methodName="showUsersGuide"/>
+                  <action class="info.sarihh.antiinferencehub.View" id="showUsersGuide" methodName="showUsersGuide"/>
                 </Property>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -296,7 +296,7 @@
         <Component class="javax.swing.JButton" name="clearLogButton">
           <Properties>
             <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
-              <action class="cc.co.sarihh.antiinferencehub.View" id="clearLog" methodName="clearLog"/>
+              <action class="info.sarihh.antiinferencehub.View" id="clearLog" methodName="clearLog"/>
             </Property>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>

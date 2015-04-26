@@ -205,7 +205,7 @@
             <Component class="javax.swing.JButton" name="testButton">
               <Properties>
                 <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
-                  <action class="cc.co.sarihh.antiinferencehub.AntiInferenceHubSetupDatabaseConnectionBox" id="test" methodName="test"/>
+                  <action class="info.sarihh.antiinferencehub.AntiInferenceHubSetupDatabaseConnectionBox" id="test" methodName="test"/>
                 </Property>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -231,7 +231,7 @@
             <Component class="javax.swing.JButton" name="okButton">
               <Properties>
                 <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
-                  <action class="cc.co.sarihh.antiinferencehub.AntiInferenceHubSetupDatabaseConnectionBox" id="ok" methodName="ok"/>
+                  <action class="info.sarihh.antiinferencehub.AntiInferenceHubSetupDatabaseConnectionBox" id="ok" methodName="ok"/>
                 </Property>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -257,7 +257,7 @@
             <Component class="javax.swing.JButton" name="cancelButton">
               <Properties>
                 <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
-                  <action class="cc.co.sarihh.antiinferencehub.AntiInferenceHubSetupDatabaseConnectionBox" id="cancel" methodName="cancel"/>
+                  <action class="info.sarihh.antiinferencehub.AntiInferenceHubSetupDatabaseConnectionBox" id="cancel" methodName="cancel"/>
                 </Property>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>

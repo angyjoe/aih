@@ -1,4 +1,4 @@
-package cc.co.sarihh.antiinferencehub;
+package info.sarihh.antiinferencehub;
 
 import org.jdesktop.application.Application;
 import org.jdesktop.application.SingleFrameApplication;

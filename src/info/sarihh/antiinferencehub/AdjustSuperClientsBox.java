@@ -1,4 +1,4 @@
-package cc.co.sarihh.antiinferencehub;
+package info.sarihh.antiinferencehub;
 
 import java.sql.DatabaseMetaData;
 import java.sql.PreparedStatement;
@@ -189,7 +189,7 @@ public class AdjustSuperClientsBox extends javax.swing.JDialog {
         removeAllButton = new javax.swing.JButton();
 
         addDialog.setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(cc.co.sarihh.antiinferencehub.App.class).getContext().getResourceMap(AdjustSuperClientsBox.class);
+        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(info.sarihh.antiinferencehub.App.class).getContext().getResourceMap(AdjustSuperClientsBox.class);
         addDialog.setTitle(resourceMap.getString("addDialog.title")); // NOI18N
         addDialog.setModal(true);
         addDialog.setName("addDialog"); // NOI18N
@@ -227,7 +227,7 @@ public class AdjustSuperClientsBox extends javax.swing.JDialog {
         southPanel1.setBackground(new java.awt.Color(255, 255, 255));
         southPanel1.setName("southPanel1"); // NOI18N
 
-        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(cc.co.sarihh.antiinferencehub.App.class).getContext().getActionMap(AdjustSuperClientsBox.class, this);
+        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(info.sarihh.antiinferencehub.App.class).getContext().getActionMap(AdjustSuperClientsBox.class, this);
         okButton.setAction(actionMap.get("ok")); // NOI18N
         okButton.setBackground(new java.awt.Color(255, 255, 255));
         okButton.setBorder(javax.swing.BorderFactory.createCompoundBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true), javax.swing.BorderFactory.createEmptyBorder(2, 10, 2, 10)));

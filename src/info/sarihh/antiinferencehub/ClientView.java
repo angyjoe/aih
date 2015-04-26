@@ -1,6 +1,6 @@
-package cc.co.sarihh.antiinferencehub;
+package info.sarihh.antiinferencehub;
 
-import cc.co.sarihh.antiinferencehub.AboutBox;
+import info.sarihh.antiinferencehub.AboutBox;
 import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
@@ -167,7 +167,7 @@ public class ClientView extends FrameView implements Runnable {
         centerPanel.setLayout(new java.awt.BorderLayout());
 
         hostPanel.setBackground(new java.awt.Color(255, 255, 255));
-        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(cc.co.sarihh.antiinferencehub.App.class).getContext().getResourceMap(ClientView.class);
+        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(info.sarihh.antiinferencehub.App.class).getContext().getResourceMap(ClientView.class);
         hostPanel.setBorder(javax.swing.BorderFactory.createTitledBorder(resourceMap.getString("hostPanel.border.title"))); // NOI18N
         hostPanel.setName("hostPanel"); // NOI18N
 
@@ -224,7 +224,7 @@ public class ClientView extends FrameView implements Runnable {
         fileMenu.setText(resourceMap.getString("fileMenu.text")); // NOI18N
         fileMenu.setName("fileMenu"); // NOI18N
 
-        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(cc.co.sarihh.antiinferencehub.App.class).getContext().getActionMap(ClientView.class, this);
+        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(info.sarihh.antiinferencehub.App.class).getContext().getActionMap(ClientView.class, this);
         exitMenuItem.setAction(actionMap.get("quit")); // NOI18N
         exitMenuItem.setBackground(new java.awt.Color(255, 255, 255));
         exitMenuItem.setName("exitMenuItem"); // NOI18N

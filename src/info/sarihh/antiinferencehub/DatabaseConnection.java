@@ -1,4 +1,4 @@
-package cc.co.sarihh.antiinferencehub;
+package info.sarihh.antiinferencehub;
 
 import java.sql.Connection;
 import java.sql.SQLException;

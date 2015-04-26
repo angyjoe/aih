@@ -1,4 +1,4 @@
-package cc.co.sarihh.antiinferencehub;
+package info.sarihh.antiinferencehub;
 
 import org.jdesktop.application.Action;
 
@@ -36,7 +36,7 @@ public class AboutBox extends javax.swing.JDialog {
         okButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(cc.co.sarihh.antiinferencehub.App.class).getContext().getResourceMap(AboutBox.class);
+        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(info.sarihh.antiinferencehub.App.class).getContext().getResourceMap(AboutBox.class);
         setTitle(resourceMap.getString("title")); // NOI18N
         setModal(true);
         setName("aboutBox"); // NOI18N
@@ -54,7 +54,7 @@ public class AboutBox extends javax.swing.JDialog {
         aboutPanel.setLayout(new java.awt.BorderLayout());
 
         imageLabel.setBackground(new java.awt.Color(255, 255, 255));
-        imageLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/cc/co/sarihh/antiinferencehub/resources/about.jpg"))); // NOI18N
+        imageLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/info/sarihh/antiinferencehub/resources/about.jpg"))); // NOI18N
         imageLabel.setVerticalAlignment(javax.swing.SwingConstants.TOP);
         imageLabel.setName("imageLabel"); // NOI18N
         aboutPanel.add(imageLabel, java.awt.BorderLayout.CENTER);
@@ -116,7 +116,7 @@ public class AboutBox extends javax.swing.JDialog {
         southPanel.setBackground(new java.awt.Color(255, 255, 255));
         southPanel.setName("southPanel"); // NOI18N
 
-        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(cc.co.sarihh.antiinferencehub.App.class).getContext().getActionMap(AboutBox.class, this);
+        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(info.sarihh.antiinferencehub.App.class).getContext().getActionMap(AboutBox.class, this);
         okButton.setAction(actionMap.get("ok")); // NOI18N
         okButton.setBackground(new java.awt.Color(255, 255, 255));
         okButton.setBorder(javax.swing.BorderFactory.createCompoundBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true), javax.swing.BorderFactory.createEmptyBorder(2, 10, 2, 10)));

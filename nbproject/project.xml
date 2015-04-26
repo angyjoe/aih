@@ -13,7 +13,7 @@
             </test-roots>
         </data>
         <swingapp xmlns="http://www.netbeans.org/ns/form-swingapp/1">
-            <application-class name="cc.co.sarihh.antiinferencehub.App"/>
+            <application-class name="info.sarihh.antiinferencehub.App"/>
         </swingapp>
     </configuration>
 </project>

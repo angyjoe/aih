@@ -97,7 +97,7 @@
                 <Component class="javax.swing.JButton" name="okButton">
                   <Properties>
                     <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
-                      <action class="cc.co.sarihh.antiinferencehub.AdjustSuperClientsBox" id="ok" methodName="ok"/>
+                      <action class="info.sarihh.antiinferencehub.AdjustSuperClientsBox" id="ok" methodName="ok"/>
                     </Property>
                     <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                       <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -233,7 +233,7 @@
             <Component class="javax.swing.JButton" name="addButton">
               <Properties>
                 <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
-                  <action class="cc.co.sarihh.antiinferencehub.AdjustSuperClientsBox" id="add" methodName="add"/>
+                  <action class="info.sarihh.antiinferencehub.AdjustSuperClientsBox" id="add" methodName="add"/>
                 </Property>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -259,7 +259,7 @@
             <Component class="javax.swing.JButton" name="removeButton">
               <Properties>
                 <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
-                  <action class="cc.co.sarihh.antiinferencehub.AdjustSuperClientsBox" id="remove" methodName="remove"/>
+                  <action class="info.sarihh.antiinferencehub.AdjustSuperClientsBox" id="remove" methodName="remove"/>
                 </Property>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -285,7 +285,7 @@
             <Component class="javax.swing.JButton" name="removeAllButton">
               <Properties>
                 <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
-                  <action class="cc.co.sarihh.antiinferencehub.AdjustSuperClientsBox" id="removeAll" methodName="removeAll"/>
+                  <action class="info.sarihh.antiinferencehub.AdjustSuperClientsBox" id="removeAll" methodName="removeAll"/>
                 </Property>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>

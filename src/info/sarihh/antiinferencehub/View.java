@@ -1,6 +1,6 @@
-package cc.co.sarihh.antiinferencehub;
+package info.sarihh.antiinferencehub;
 
-import cc.co.sarihh.antiinferencehub.AboutBox;
+import info.sarihh.antiinferencehub.AboutBox;
 import java.awt.Desktop;
 import java.io.File;
 import java.io.IOException;
@@ -213,7 +213,7 @@ public class View extends FrameView {
         centerPanel.setLayout(new java.awt.BorderLayout());
 
         logScrollPane.setBackground(new java.awt.Color(255, 255, 255));
-        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(cc.co.sarihh.antiinferencehub.App.class).getContext().getResourceMap(View.class);
+        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(info.sarihh.antiinferencehub.App.class).getContext().getResourceMap(View.class);
         logScrollPane.setBorder(javax.swing.BorderFactory.createTitledBorder(resourceMap.getString("logScrollPane.border.title"))); // NOI18N
         logScrollPane.setVerticalScrollBarPolicy(javax.swing.ScrollPaneConstants.VERTICAL_SCROLLBAR_ALWAYS);
         logScrollPane.setName("logScrollPane"); // NOI18N
@@ -239,7 +239,7 @@ public class View extends FrameView {
         fileMenu.setText(resourceMap.getString("fileMenu.text")); // NOI18N
         fileMenu.setName("fileMenu"); // NOI18N
 
-        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(cc.co.sarihh.antiinferencehub.App.class).getContext().getActionMap(View.class, this);
+        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(info.sarihh.antiinferencehub.App.class).getContext().getActionMap(View.class, this);
         setupDatabaseConnectionMenuItem.setAction(actionMap.get("showSetupDatabaseConnectionBox")); // NOI18N
         setupDatabaseConnectionMenuItem.setBackground(new java.awt.Color(255, 255, 255));
         setupDatabaseConnectionMenuItem.setMnemonic('D');

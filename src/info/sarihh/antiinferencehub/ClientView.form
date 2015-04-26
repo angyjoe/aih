@@ -219,7 +219,7 @@
             <MenuItem class="javax.swing.JMenuItem" name="usersGuideMenuItem">
               <Properties>
                 <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
-                  <action class="cc.co.sarihh.antiinferencehub.ClientView" id="showUsersGuide" methodName="showUsersGuide"/>
+                  <action class="info.sarihh.antiinferencehub.ClientView" id="showUsersGuide" methodName="showUsersGuide"/>
                 </Property>
                 <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
                   <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -353,7 +353,7 @@
         <Component class="javax.swing.JButton" name="clearInputButton">
           <Properties>
             <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
-              <action class="cc.co.sarihh.antiinferencehub.ClientView" id="clearInput" methodName="clearInput"/>
+              <action class="info.sarihh.antiinferencehub.ClientView" id="clearInput" methodName="clearInput"/>
             </Property>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>
@@ -383,7 +383,7 @@
         <Component class="javax.swing.JButton" name="clearOutputButton">
           <Properties>
             <Property name="action" type="javax.swing.Action" editor="org.netbeans.modules.swingapp.ActionEditor">
-              <action class="cc.co.sarihh.antiinferencehub.ClientView" id="clearOutput" methodName="clearOutput"/>
+              <action class="info.sarihh.antiinferencehub.ClientView" id="clearOutput" methodName="clearOutput"/>
             </Property>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="ff" red="ff" type="rgb"/>

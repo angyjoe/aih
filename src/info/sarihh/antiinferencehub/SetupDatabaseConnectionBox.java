@@ -1,4 +1,4 @@
-package cc.co.sarihh.antiinferencehub;
+package info.sarihh.antiinferencehub;
 
 import java.sql.Connection;
 import java.sql.DatabaseMetaData;
@@ -172,7 +172,7 @@ public class SetupDatabaseConnectionBox extends javax.swing.JDialog {
         cancelButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(cc.co.sarihh.antiinferencehub.App.class).getContext().getResourceMap(SetupDatabaseConnectionBox.class);
+        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(info.sarihh.antiinferencehub.App.class).getContext().getResourceMap(SetupDatabaseConnectionBox.class);
         setTitle(resourceMap.getString("setupDatabaseConnectionBox.title")); // NOI18N
         setModal(true);
         setName("setupDatabaseConnectionBox"); // NOI18N
@@ -275,7 +275,7 @@ public class SetupDatabaseConnectionBox extends javax.swing.JDialog {
         southPanel.setBackground(new java.awt.Color(255, 255, 255));
         southPanel.setName("southPanel"); // NOI18N
 
-        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(cc.co.sarihh.antiinferencehub.App.class).getContext().getActionMap(SetupDatabaseConnectionBox.class, this);
+        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(info.sarihh.antiinferencehub.App.class).getContext().getActionMap(SetupDatabaseConnectionBox.class, this);
         testButton.setAction(actionMap.get("test")); // NOI18N
         testButton.setBackground(new java.awt.Color(255, 255, 255));
         testButton.setBorder(javax.swing.BorderFactory.createCompoundBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true), javax.swing.BorderFactory.createEmptyBorder(2, 10, 2, 10)));

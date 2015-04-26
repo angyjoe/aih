@@ -1,4 +1,4 @@
-package cc.co.sarihh.antiinferencehub;
+package info.sarihh.antiinferencehub;
 
 import java.sql.DatabaseMetaData;
 import java.sql.PreparedStatement;
@@ -335,7 +335,7 @@ public class InitializeKeysBox extends javax.swing.JDialog {
         removeAllButton = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.DISPOSE_ON_CLOSE);
-        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(cc.co.sarihh.antiinferencehub.App.class).getContext().getResourceMap(InitializeKeysBox.class);
+        org.jdesktop.application.ResourceMap resourceMap = org.jdesktop.application.Application.getInstance(info.sarihh.antiinferencehub.App.class).getContext().getResourceMap(InitializeKeysBox.class);
         setTitle(resourceMap.getString("initializeKeysBox.title")); // NOI18N
         setModal(true);
         setName("initializeKeysBox"); // NOI18N
@@ -364,7 +364,7 @@ public class InitializeKeysBox extends javax.swing.JDialog {
         southPanel.setBackground(new java.awt.Color(255, 255, 255));
         southPanel.setName("southPanel"); // NOI18N
 
-        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(cc.co.sarihh.antiinferencehub.App.class).getContext().getActionMap(InitializeKeysBox.class, this);
+        javax.swing.ActionMap actionMap = org.jdesktop.application.Application.getInstance(info.sarihh.antiinferencehub.App.class).getContext().getActionMap(InitializeKeysBox.class, this);
         initializeButton.setAction(actionMap.get("initialize")); // NOI18N
         initializeButton.setBackground(new java.awt.Color(255, 255, 255));
         initializeButton.setBorder(javax.swing.BorderFactory.createCompoundBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true), javax.swing.BorderFactory.createEmptyBorder(2, 10, 2, 10)));
