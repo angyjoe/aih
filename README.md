@@ -25,7 +25,7 @@ Anti Inference Hub uses the following software components:
 
 ## Documentation
 
-Refer to the [User's Guide](./documentation/users-guide-1.0-revision-1.pdf) and the [presentation slides](./documentation/Anti Inference Hub Presentation.pdf).
+Refer to the [User's Guide](./documentation/users-guide-0.2.pdf) and the [presentation slides](./documentation/Anti Inference Hub Presentation.pdf).
 
 ## Screenshots
 
